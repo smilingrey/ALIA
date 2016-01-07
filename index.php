@@ -1,0 +1,10 @@
+<?php
+	session_start();
+	set_time_limit(0);
+	//error_reporting(0);
+	include("./libraries/connect.php");
+	include("./includes/functions.php");
+	include("./includes/paging.php");
+	include("./modules/main.php");
+	mysql_close();
+?>

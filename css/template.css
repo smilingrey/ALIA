@@ -1,0 +1,670 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+	font-family: "annabel";
+	src: url(../font/annabel.ttf) format("truetype");
+}
+#footerBottom .container  {display: block; clear: both; width: 990px; margin: 0 auto;}
+#footerBottom {background: #DEDEDC url(/Images/UserUploadedImages/bg-footer-bottom.jpg) no-repeat top center; padding: 10px 0 20px;  color: #fff;  font-size: 70%; overflow: hidden; }
+#footerBottom ul {color: #fff; display: block; float: left; list-style: none outside none; margin: 10px 10px 0 0; padding: 0; width: 235px;}
+#footerBottom ul li {color: #fff;  margin: 5 0 0px; padding: 0; display: block; text-align:left}
+#footerBottom a {color: #000; text-decoration:none;}
+#footerBottom div.logos {overflow: hidden; float:left; width:990px; border-bottom: 0px solid #888; padding: 0 0 0px;}
+#footerBottom div.logos img {float: left;}
+#footerBottom div.logos a.rss {float: right; background: url(/Images/UserUploadedImages/1350/icon-footer-rss.jpg) no-repeat 0 0px; padding: 0 0 0 10px;   margin: 20px 0 0;}
+
+body{
+	margin: 0;
+	
+	*font: 100%/100% Arial, Verdana, sans-serif;
+	background-color:#e2e8e4;
+}
+
+/* reservasi */
+button{
+	*margin: 0 0 15px;
+	padding: 4px 4px;
+	border: 1px solid #217db3;
+	background-color: #006c84;
+	cursor: pointer;
+	color:#ffffff;
+	background-color:#006c84;
+	font-size:12px;
+	border-radius:5px;
+	
+}
+button:hover{
+	background-color: #6eb5c0;
+	color: #fff;
+}
+#total_harga_reservasi{
+	margin-top:10px;
+	margin-left:150px;
+	border:solid #CCCCCC 1px;
+	color:#FFFFFF;
+	background-color:#666666;
+	padding:10px;
+	text-align:center;
+	float:left
+}
+
+#success_reservasi{
+	border:#CCCCCC solid 1px;
+	padding-bottom:10px;
+}
+
+#success_reservasi table{
+	font-size:11px;
+}
+
+#form_reservasi{
+	overflow:hidden;
+	margin-top:20px;
+}
+
+#reservasi_kiri{
+	width:250px;
+	border:#CCCCCC solid 1px;
+	float:left;
+}
+
+#reservasi_tengah{
+	width:220px;
+	border:#CCCCCC solid 1px;
+	float:left;
+	margin-left:5px;
+}
+
+#reservasi_kanan{
+	width:220px;
+	border:#CCCCCC solid 1px;
+	float:left;
+	margin-left:5px;
+}
+
+#judul_reservasi{
+	background-color:#666666;
+	color:#FFFFFF;
+	width:100%;
+	text-align:center;
+	font-weight:bold;
+}
+
+#isi_reservasi table{
+	font-size:11px;
+}
+
+#isi_reservasi table input{
+	font-size:11px;
+}
+
+#isi_reservasi table select{
+	font-size:11px;
+}
+
+/*link atas */
+
+#link_atas a{
+	font-family:tahoma;
+	font-size:11px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-decoration:none;
+	padding-right:14px;
+	padding-left:14px;
+	padding-top:12px;
+	padding-bottom:12px;
+}
+
+/*bagian atas*/
+#bagian_atas{
+	z-index:-1;
+	position:absolute;
+	top:0px;
+	width:100%;
+	clear:both;
+	display:block;
+	margin:0 auto;
+}
+
+#atas{
+	height:250px;
+	background-color:#6C609E;
+	z-index:0;
+	overflow:hidden;
+	clear:both;
+}
+#atas1{
+	overflow:hidden;
+	height:70px;
+	background-color:#97AEBE;
+	z-index:0;
+	clear:both;
+}
+
+/*bagian bawah */
+#bawah{
+	padding-top:20px;
+	padding-bottom:20px;
+	background-color:#DEDEDC;
+	z-index:1;
+	vertical-align:middle;
+	overflow:visible;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	
+}
+
+#bawah_a{
+	background-color:#DEDEDC;
+	vertical-align:middle;
+	overflow:visible;
+	
+	-moz-box-shadow: 0px 0px 20px #000;
+  	-webkit-box-shadow: 0px 0px 20px #000;
+  	box-shadow: 25px 15px 20px #000;
+	overflow:visible;
+}
+
+#bawah1{
+	overflow:hidden;
+	background-color:#901D78;
+	z-index:0;
+	text-align:center;
+	padding-bottom:30px;
+}
+
+#bawah1_a{
+	background-color:#901D78;
+	vertical-align:middle;
+	overflow:visible;
+	
+	-moz-box-shadow: 0px 0px 20px #000;
+  	-webkit-box-shadow: 0px 0px 20px #000;
+  	box-shadow: 25px 15px 20px #000;
+	overflow:visible;
+}
+#bawah2{
+	overflow:hidden;
+	background-color:#495678;
+	z-index:0;
+	text-align:center;
+	padding-bottom:30px;
+	color:#FFFFFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+}
+
+#main{
+	z-index:2;
+	overflow:visible;
+	*padding-bottom:30px;
+	/*background-image:url(../images/red.JPG); */
+	background-repeat:repeat-x;
+	background-position:bottom;
+}
+
+#main #shadow_table{
+	*-moz-box-shadow: 0px 0px 20px #000;
+  	*-webkit-box-shadow: 0px 0px 20px #000;
+  	*box-shadow: 20px 20px 20px #000;
+	overflow:visible;
+}
+
+#main #shadow_table1{
+	-moz-box-shadow: 0px 0px 00px #fff;
+  	-webkit-box-shadow: 0px 0px 00px #fff;
+  	box-shadow: 20px 20px 20px #000;
+	
+}
+#wrapper{
+	width:100%;
+	z-index:1;
+	clear:both;
+	min-height:700px;
+	margin:0 auto;
+	top:0px;
+	background:transparent;
+}
+
+/* list menu kanan */
+.nav12{
+	color:#FFFFFF;
+	font-family:tahoma;
+	font-size:11px;
+}
+
+.nav12 a{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+ul.nav12{
+	text-decoration:none;
+	margin-top:15px;
+	margin-left:-25px;
+	margin-bottom:15px;
+	margin-right:15px;
+}
+
+ul.nav12 li{
+	line-height:1.75em;
+	list-style:none;
+	border-bottom:1px dotted #fff;
+	padding-top:2px;
+}
+
+ul.nav12 li a{
+	color:#FFFFFF;
+	text-decoration:none;
+}	
+
+/*content kiri */
+#content{
+	padding:25px;
+
+	overflow:hidden;
+	font-family:tahoma;
+	font-size:12px;
+	line-height:1.5em;
+}
+
+/* link bawah */
+#link_bawah{
+	font-family:tahoma;
+	font-size:11px;
+	line-height:2em;
+	color:#FFFFFF;
+	margin-top:30px;
+	margin-bottom:30px;
+	text-align:center;
+}
+
+#link_bawah a{
+	text-decoration:none;
+	color:#FFFFFF;	
+}
+
+/*foother */
+
+#foother{
+	font-family:tahoma;
+	font-size:11px;
+	color:#000000;
+	font-weight:bold;
+	margin:20px;
+}
+
+#menu_atas{
+	font-family:tahoma;
+	font-size:12px;
+}
+
+
+#menu_atas1{
+	background-color:#ffffff;color:#ffffff;
+}
+
+
+#menu_atas a{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+/* judul content */
+#judul
+{
+	border-bottom:2px dotted #CCCCCC;
+	font-family:tahoma;
+	font-size:20px;
+	padding-bottom:3px;
+}
+
+/* menu atas bagian 4 kiri */
+
+.menu2 {   float: left; margin: 10; padding: 0; cursor: pointer;z-index: 1;}
+.menu2 #menu_kiri li {border-right: 0px solid #ddd; border-top: 0px solid #ddd; position: static;  float: left; text-align: center; list-style: none; position: relative; padding:5px; background-color:#DA251C; width:112px;}
+.menu2 #menu_kiri li a {font: bold 10px tahoma; color: #fff;  display: block;}
+.menu2 #menu_kiri li a:hover,
+.menu2 #menu_kiri li a:focus {color: #fff;}
+.menu2 #menu_kiri li a span {}
+.menu2 #menu_kiri li:hover ul {display: block;}
+.menu2 #menu_kiri li:hover ul ul {display: none;}
+.menu2 #menu_kiri li ul {display: none; left: 10; margin: 0; padding: 10; position: absolute;}
+.menu2 #menu_kiri li ul li {border-right: 1px solid #ddd; border-top: 1px solid #ddd;clear: both; height: 35px; top: 5px;position: relative; text-align: left; width: 200px; background-color:#DA251C;}
+.menu2 #menu_kiri li ul li a {font: bold 10px tahoma;  padding: 10px 5px;}
+.menu2 #menu_kiri li ul li a span {}
+.menu2 #menu_kiri li ul li:hover ul {display: block;}
+.menu2 #menu_kiri li ul li:hover ul ul {display: none;}
+.menu2 #menu_kiri li ul li ul {display: none; left:212px; top:0; margin: 0; padding: 0; position: absolute;}
+.menu2 #menu_kiri li ul li ul li {clear: both; height: 35px; position: relative; text-align: left; width: 200px; background-color:#DA251C;}
+.menu2 #menu_kiri li ul li ul li a {font: bold 10px tahoma;  padding: 10px 5px;}
+.menu2 #menu_kiri li ul li ul li a span {}
+.menu2 #menu_kiri li ul li ul li:hover ul {display: block; position: absolute;}
+.menu2 #menu_kiri li ul li ul li ul {display: none; left: 202px; top: 0; margin: 0;padding: 0; position: absolute;}
+.menu2 #menu_kiri li ul li ul li ul li {border: none; background-color:#DA251C; width:200px; text-align: left;}
+.menu2 #menu_kiri li ul li ul li ul li:hover {background: #DA251C !important;}
+.menu2 #menu_kiri li ul li ul li ul li a {color: #fff; font: bold 9px tahoma; padding: 10px;}
+.menu2 #menu_kiri li ul li ul li ul li a:hover,
+.menu2 #menu_kiri li ul li ul li ul li a:focus {color: #fff;}
+
+/* menu atas bagian 4 kanan */
+
+.menu2 {   float: left; margin: 10; padding: 0; cursor: pointer;z-index: 1;}
+.menu2 #menu_kanan li {border-right: 0px solid #ddd; border-top: 0px solid #ddd; position: static;  float: left; text-align: center; list-style: none; position: relative; padding:5px; background-color:#DA251C; width:110px;}
+.menu2 #menu_kanan li a {font: bold 10px tahoma; color: #fff;  display: block;}
+.menu2 #menu_kanan li a:hover,
+.menu2 #menu_kanan li a:focus {color: #fff;}
+.menu2 #menu_kanan li a span {}
+.menu2 #menu_kanan li:hover ul {display: block;}
+.menu2 #menu_kanan li:hover ul ul {display: none;}
+.menu2 #menu_kanan li ul {display: none; left: 10; margin: 0; padding: 10; position: absolute;}
+.menu2 #menu_kanan li ul li {border-right: 1px solid #ddd; border-top: 1px solid #ddd;clear: both; height: 35px; top: 5px;position: relative; text-align: left; width: 200px; background-color:#DA251C;}
+.menu2 #menu_kanan li ul li a {font: bold 10px tahoma;  padding: 10px 5px;}
+.menu2 #menu_kanan li ul li a span {}
+.menu2 #menu_kanan li ul li:hover ul {display: block;}
+.menu2 #menu_kanan li ul li:hover ul ul {display: none;}
+.menu2 #menu_kanan li ul li ul {display: none; left:-212px; top:0; margin: 0; padding: 0; position: absolute;}
+.menu2 #menu_kanan li ul li ul li {clear: both; height: 35px; position: relative; text-align: left; width: 200px; background-color:#DA251C;}
+.menu2 #menu_kanan li ul li ul li a {font: bold 10px tahoma;  padding: 10px 5px;}
+.menu2 #menu_kanan li ul li ul li a span {}
+.menu2 #menu_kanan li ul li ul li:hover ul {display: block; position: absolute;}
+.menu2 #menu_kanan li ul li ul li ul {display: none; left: -210px; top: 0; margin: 0;padding: 0; position: absolute;}
+.menu2 #menu_kanan li ul li ul li ul li {border: none; background-color:#DA251C; width:200px; text-align: left;}
+.menu2 #menu_kanan li ul li ul li ul li:hover {background: #DA251C !important;}
+.menu2 #menu_kanan li ul li ul li ul li a {color: #fff; font: bold 9px tahoma; padding: 10px;}
+.menu2 #menu_kanan li ul li ul li ul li a:hover,
+.menu2 #menu_kanan li ul li ul li ul li a:focus {color: #fff;}
+
+#kiri
+{
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#A6B9DF', endColorstr='#91A8D5',  GradientType='1'); /* for IE 5.5 - 7*/
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#A6B9DF', endColorstr='#91A8D5',  GradientType='1'); /* for IE 8*/
+	background: -webkit-gradient(linear, left top, right top, color-stop(0.1, #B7C4E4), color-stop(0.9, #A5B7DF)); /* for webkit browsers */
+	background: -moz-linear-gradient(left, #B7C4E4 10%, #A5B7DF 90%); /* for firefox 3.6+ */
+}
+
+
+
+a.detail:link{
+	text-decoration:none;
+	font-family:tahoma;
+	font-size:10px;
+	color:#0099FF;
+}
+a.detail:visited{
+	text-decoration:none;
+	font-family:tahoma;
+	font-size:10px;
+	color:#0099FF;
+}
+a.detail:hover{
+	text-decoration:none;
+	font-family:tahoma;
+	font-size:10px;
+	color:#0099FF;
+}
+
+a.sub_judul:link{
+	font-family: Georgia;
+	font-size: 10px;
+	line-height: 170%;
+	font-weight: bold;
+	color:#0033CC;
+	text-decoration:none;
+}
+a.sub_judul:visited{
+	font-family: Georgia;
+	font-size: 10px;
+	line-height: 170%;
+	font-weight: bold;
+	color: #0033CC;
+	text-decoration:none;
+}
+a.sub_judul:hover{
+	font-family: Georgia;
+	font-size: 10px;
+	line-height: 170%;
+	font-weight: bold;
+	color: #0033CC;
+	text-decoration:none;
+}
+
+#sub_judul{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	color:#0000FF;
+}
+.galeri a img{
+	border: none;/*remove border for linked images*/
+	background-color: #fff;
+	padding: 2px;
+	margin: 3px 5px 3px 0;
+	border: 1px solid #0066B3;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+}
+
+.kotak{
+	border: none;/*remove border for linked images*/
+	background-color: #fff;
+	padding: 0px 10px 10px 10px;
+	margin-left:20%;
+	margin-right:20%;
+	border: 1px solid #0066B3;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+}
+
+.kotak_kiri{
+	border: none;/*remove border for linked images*/
+	background:none;
+	font-family:tahoma;
+	font-size:11px;
+	padding: 5px 5px 5px 5px;
+	margin-left:7px;
+	margin-right:7px;
+	border: 2px solid #fff;
+	color:fff;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+}
+
+.kotak_login{
+	border: none;/*remove border for linked images*/
+	background-color: #fff;
+	padding: 30px 30px 30px 30px;
+	margin-left:30%;
+	margin-right:30%;
+	border: 1px solid #0066B3;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+}
+
+input
+{
+	font-family:tahoma;
+	font-size:12px;	
+}
+
+select
+{
+	font-family:tahoma;
+	font-size:12px;	
+}
+
+#menu_kanan
+{
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:20px;
+	margin-bottom:5px;
+}
+
+#text
+{
+	font-family:tahoma;
+	font-size:9px;
+}
+
+ul.nav1 
+{
+	margin:10 10 10px 0;
+	list-style:url(../images/list_bullet.gif);
+	padding:10 10px;text-decoration	: none;color:#000000;
+}
+
+ul.nav1 li
+{
+	text-decoration	: none;
+	padding-right:5px;
+	padding-bottom:4px;
+	padding-top:4px;
+	margin-left:25px;
+	color: #000000;
+	text-decoration:none;
+	text-align:left; 
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	/* background:url(../images/bg-dotted.gif) repeat-x bottom; */
+}
+
+ul.nav1 li a:hover
+{
+	font-weight:bold;
+	color: #000000;
+	text-decoration:none;
+}
+
+ul.nav1 li a:link
+{
+	color: #000000;
+	text-decoration:none;
+}
+
+ul.nav1 li a:visited
+{
+	color: #000000;
+	text-decoration:none;
+}
+
+#tbl
+{
+	width:100%;
+	border: 0.5px solid #666666;
+	border-radius:5px;
+	text-decoration:none;
+	font-family:tahoma;
+	font-size:12px;
+	background-color:#006c84;
+}
+
+#tbl-label
+{
+	color:#ffffff;
+	font-family:tahoma;
+	font-size:12px;
+	background-color:#6eb5c0;
+/*	background-image:url(../images/button/tabel.png);*/
+	font-weight:bold;
+	text-align:center;
+}
+
+#tbl-content
+{
+	font-family:tahoma;
+	font-size:12px;
+	color:#000000;
+	background-color:#efefef;
+}
+
+a.header:link
+{
+	text-decoration:none;
+	border:none;
+}
+
+a.header:visited
+{
+	text-decoration:none;
+	border:none;
+}
+
+a.header:hover
+{
+	text-decoration:none;
+	border:none;
+}
+
+a.link:link { 
+	color			: #000000;
+	font-family:tahoma;
+	font-size:12px;
+	text-decoration	: none;
+}
+a.link:visited { 
+	color			: #000000; 
+	font-family:tahoma;
+	font-size:12px;
+	text-decoration	: none;
+}
+a.link:hover { 
+	color			: #000000; 
+	font-family:tahoma;
+	font-size:12px;
+	text-decoration	: none;
+}
+
+a.galeri1:link { 
+	text-decoration	: none;
+	color:#000000;
+}
+a.galeri1:visited { 
+	text-decoration	: none;
+	color:#000000;
+}
+a.galeri1:hover { 
+	text-decoration	: none;
+	color:#000000;
+}
+
+
+a.foto:link { 
+	text-decoration	: none;
+}
+a.foto:visited { 
+	text-decoration	: none;
+}
+a.foto:hover { 
+	text-decoration	: none;
+}
+
+a.edit:link { 
+	color			: #000000; 
+	text-decoration	: none;
+}
+a.edit:visited { 
+	color			: #000000; 
+	text-decoration	: none;
+}
+a.edit:hover { 
+	color			: #000000; 
+	text-decoration	: none;
+}
+
+a.hapus:link { 
+	color			: #000000; 
+	text-decoration	: none;
+}
+a.hapus:visited { 
+	color			: #000000; 
+	text-decoration	: none;
+}
+a.hapus:hover { 
+	color			: #000000; 
+	text-decoration	: none;
+}
+
